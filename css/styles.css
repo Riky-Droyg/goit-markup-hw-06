@@ -712,11 +712,11 @@ p {
 	letter-spacing: 2%;
 	color: #2e2f42;
 }
-.mobile-menu-modal__nav li:first-child a{
-	color: #404BBF;
+.mobile-menu-modal__nav li:first-child a {
+	color: #404bbf;
 }
-.mobile-menu-modal__contact-info__list li:first-child a{
-	color: #404BBF;
+.mobile-menu-modal__contact-info__list li:first-child a {
+	color: #404bbf;
 }
 .mobile-menu-modal__nav-link:hover {
 	color: #404bbf;
@@ -812,7 +812,7 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-	.mobile-menu-modal-wrpapper{
+	.mobile-menu-modal-wrpapper {
 		display: none;
 	}
 	.container {
@@ -965,17 +965,21 @@ p {
 
 /* Десктопи і більше (від 1158px) */
 @media screen and (min-width: 1158px) {
+	.mobile-menu-modal-wrpapper {
+		display: none;
+	}
 	.container {
-		max-width: 1440px;
+		max-width: 1158px;
 	}
 	.contact-info__list {
 		flex-direction: row;
+		gap: 40px;
 	}
 	.contact-info__link {
 		font-size: 16px;
 	}
 	.hero-section {
-		max-width: 1440px;
+		max-width: 1158px;
 		padding: 188px 0;
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/heroBg-pc.jpg");
 	}
@@ -1081,7 +1085,7 @@ p {
 		padding: 0 15px;
 		gap: 0;
 	}
-	.footer-info__form-wrapper{
+	.footer-info__form-wrapper {
 		width: auto;
 	}
 	.footer-info {
